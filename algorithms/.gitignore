@@ -1,5 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# dependencies
+
 
 # testing
 /coverage
@@ -8,9 +10,9 @@
 /bin
 /obj
 /packages
+/.vs
+*.user
 
 # notes
 /docs
-
-# misc
 
