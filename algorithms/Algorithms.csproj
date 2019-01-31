@@ -50,6 +50,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="mathexamples\e1dot1modulus.cs" />
     <Compile Include="Q1dot5Replace.cs" />
     <Compile Include="Q1dot6Rotate.cs" />
     <Compile Include="Q1dot4Anagrams.cs" />
@@ -62,7 +63,6 @@
     <Compile Include="Q1dot8Substringcs.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include=".gitignore" />
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
