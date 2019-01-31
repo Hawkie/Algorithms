@@ -41,7 +41,7 @@ namespace algorithms.mathexamples
             if (list.Any())
             {
                 Console.Write("{0} is divisible by: {1}", x, list.First());
-                if (list.Count() > 1)
+                if (list.Skip(1).Any())
                 {
                     foreach (int item in list.Skip(1).Take(list.Count() - 2))
                     {

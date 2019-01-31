@@ -36,6 +36,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="nunit.framework, Version=3.11.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
       <HintPath>..\packages\NUnit.3.11.0\lib\net45\nunit.framework.dll</HintPath>
       <Private>True</Private>
@@ -50,17 +51,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="2LinkedLists\Q2dot1DeleteDuplicates.cs" />
     <Compile Include="mathexamples\e1dot1modulus.cs" />
-    <Compile Include="Q1dot5Replace.cs" />
-    <Compile Include="Q1dot6Rotate.cs" />
-    <Compile Include="Q1dot4Anagrams.cs" />
-    <Compile Include="Q1dot2Reverse.cs" />
+    <Compile Include="1Arrays\Q1dot5Replace.cs" />
+    <Compile Include="1Arrays\Q1dot6Rotate.cs" />
+    <Compile Include="1Arrays\Q1dot4Anagrams.cs" />
+    <Compile Include="1Arrays\Q1dot2Reverse.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Q1dot1Unique.cs" />
-    <Compile Include="Q1dot3Duplicates.cs" />
-    <Compile Include="Q1dot7MatrixMN.cs" />
-    <Compile Include="Q1dot8Substringcs.cs" />
+    <Compile Include="1Arrays\Q1dot1Unique.cs" />
+    <Compile Include="1Arrays\Q1dot3Duplicates.cs" />
+    <Compile Include="1Arrays\Q1dot7MatrixMN.cs" />
+    <Compile Include="1Arrays\Q1dot8Substringcs.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
